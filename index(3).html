@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>English Up</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<div class="tr"><span class="hi" id="hi"></span><span class="pill" id="dm"></span><button class="cbtn" id="cb" aria-label="Daily sovg‘alar">Daily<span id="cn" hidden>!</span></button><button class="cbtn" id="gs" aria-label="Sozlamalar">⚙️</button></div><h1>English Up</h1>
+<p class="sub">Ingliz tilida gapirishni biz bilan o‘rgan! Kuniga 15–20 daqiqa: eshiting, takrorlang, gapiring.</p>
+<button class="btn p go" id="go">1-kunni boshlash</button>
+<div class="bar"><i id="pb"></i></div>
+<div class="stat"><span id="pt"></span><span>Hozirgi kun: <b id="nx"></b></span></div>
+<div class="tabs" role="tablist">
+<button class="tab" role="tab" id="t1" aria-selected="true">100 kunlik reja</button>
+<button class="tab" role="tab" id="t2" aria-selected="false">Zamonlar</button>
+<button class="tab" role="tab" id="t3" aria-selected="false">Gap tuzilishi</button>
+<button class="tab" role="tab" id="t4" aria-selected="false">So‘zlar</button>
+<button class="tab" role="tab" id="t6" aria-selected="false">Gap o‘yini</button>
+<button class="tab" role="tab" id="t7" aria-selected="false">Xatolar daftari</button>
+<button class="tab" role="tab" id="t8" aria-selected="false">Mashqlar</button>
+<button class="tab" role="tab" id="t9" aria-selected="false">Harflar</button>
+</div>
+<section id="v"></section>
+<div class="sw"><label>Ovoz: <select id="vs"></select></label> <button id="vt">Sinab ko‘rish</button><br><label>Tezlik: <input type="range" id="vr" min=".6" max="1.2" step=".05" value=".85"></label><br><br><button id="rn">Ismni o‘zgartirish</button> &nbsp; <button id="rs">Jarayonni boshidan boshlash</button></div>
+</main>
+<div class="md" id="md" hidden><div class="mc" id="mc"></div></div>
+<div class="md" id="wl" hidden><div class="mc" id="wc"></div></div>
+<div id="tp" class="tpb" hidden></div>
+<script src="script.js"></script>
+</body>
+</html>

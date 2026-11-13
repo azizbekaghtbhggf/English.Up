@@ -9,7 +9,4 @@ Ingliz tilini 100 kunda o‘rganish sayti (o‘zbek tilida): kunlik darslar, so�
 
 ## Ishga tushirish
 `index.html` ni brauzerda oching (uchala fayl bitta papkada turishi kerak).
-Progress brauzerning `localStorage` xotirasida saqlanadi.
-
-## Eslatma
-Tarjimon va Admin bo‘limi faqat claude.ai ichida ishlaydi. Boshqa joyda (masalan GitHub Pages) qolgan hamma narsa ishlaydi.
+Hech qanday server yoki internet xizmati kerak emas. Progress brauzerning `localStorage` xotirasida saqlanadi.
